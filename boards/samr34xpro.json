@@ -12,9 +12,19 @@
   "debug": {},  
   "frameworks": [ "arduino", "baremetal" ],
   "upload": {
-        "maximum_ram_size": 40000,
-        "maximum_size": 256000,
-        "tool" : "atprogram",
-        "args" : [ "-i", "SWD", "-t", "edbg", "-d", "ATSAMR34J18B", "-cl", "10MHz" ]
+    "disable_flushing": true,
+    "maximum_ram_size": 32768,
+    "maximum_size": 262144,
+    "native_usb": true,
+    "offset_address": "0x2000",
+    "protocol": "jlink",
+    "protocols": [
+      "sam-ba",
+      "blackmagic",
+      "jlink"
+    ],
+    "require_upload_port": true,
+    "use_1200bps_touch": true,
+    "wait_for_upload_port": true
   }
 }

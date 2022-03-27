@@ -29,7 +29,7 @@ def dev_compiler(env):
 
 def dev_init(env, platform):
     env.framework_dir = env.PioPlatform().get_package_dir("framework-sam-lora")
-    env.tool_dir = join(env.PioPlatform().get_package_dir("tool-sam-lora"))
+    #env.tool_dir = join(env.PioPlatform().get_package_dir("tool-sam-lora"))
     dev_compiler(env)
     env.app = env.BoardConfig().get("build.app", "0") 
     print(Fore.BLUE + 'APPLICATION START ADDRESS:', env.app)
