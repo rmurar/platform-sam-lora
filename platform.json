@@ -32,7 +32,7 @@
     }, 
     "framework-sam-lora": {
       "type": "framework",
-      "version": "https://github.com/rmurar/framework-sam-lora.git"     
+      "version": "https://github.com/rmurar/framework-sam-lora.git@1.0.2"    
     },
       "tool-sam-lora": {
         "type": "uploader",
