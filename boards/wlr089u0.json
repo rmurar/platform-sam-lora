@@ -1,0 +1,30 @@
+{
+  "vendor": "Microchip",  
+  "name": "WLR089U0 module",
+  "url": "https://www.microchip.com/design-centers/wireless-connectivity/low-power-wide-area-networks/lora-technology/sam-r34-r35",
+  "build": {
+    "mcu":          "SAMR34J18B",
+    "core":         "samr34",
+    "variant":      "wlr089u0",
+    "arduino-ld":   "samr34j18b_flash.ld",
+    "baremetal-ld": "samr34j18b_flash.ld"
+  },
+  "debug": {},  
+  "frameworks": [ "arduino", "baremetal" ],
+  "upload": {
+    "disable_flushing": true,
+    "maximum_ram_size": 32768,
+    "maximum_size": 262144,
+    "native_usb": true,
+    "offset_address": "0x2000",
+    "protocol": "jlink",
+    "protocols": [
+      "sam-ba",
+      "blackmagic",
+      "jlink"
+    ],
+    "require_upload_port": true,
+    "use_1200bps_touch": true,
+    "wait_for_upload_port": true
+  }
+}

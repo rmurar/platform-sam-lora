@@ -1,7 +1,7 @@
 {
   "name": "sam-lora",
   "title": "Microchip SAMR34 SAMR35",
-  "description": "Sam LoRa 2020 Georgi Angelov",
+  "description": "Sam LoRa 2020 Georgi Angelov - fork",
   "url": "http://platformio.org/platforms/",
   "homepage": "http://www.wizio.eu",
   "license": "Apache-2.0",
@@ -32,11 +32,11 @@
     }, 
     "framework-sam-lora": {
       "type": "framework",
-      "version": "https://github.com/Wiz-IO/framework-sam-lora" 
+      "version": "https://github.com/rmurar/framework-sam-lora.git"     
     },
-    "tool-sam-lora": {
-      "type": "uploader",
-      "version": "https://github.com/Wiz-IO/LIB/raw/master/sam-lora/tool-sam-lora.zip"
-    }      
+      "tool-sam-lora": {
+        "type": "uploader",
+        "version": "https://github.com/Wiz-IO/LIB/raw/master/sam-lora/tool-sam-lora.zip"
+      }     
   }
 }
