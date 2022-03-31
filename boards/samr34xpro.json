@@ -9,7 +9,9 @@
     "arduino-ld":   "samr34j18b_flash.ld",
     "baremetal-ld": "samr34j18b_flash.ld"
   },
-  "debug": {},  
+  "debug": {
+    "jlink_device": "ATSAMR34J18"
+  },  
   "frameworks": [ "arduino", "baremetal" ],
   "upload": {
     "disable_flushing": true,
