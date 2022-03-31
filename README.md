@@ -1,3 +1,13 @@
+# Note
+This is fork from https://github.com/Wiz-IO/platform-sam-lora.git
+
+I'm adding here some small functionality, like (all is work in progress):
+
+* uploading using JLink
+* add definition for wlr089u0
+  
+
+---
 # Microchip Atmel SAMR34/35 platform for PlatformIO
 
  **Version 0.1.2** ( [look here, to see if there is something new](https://github.com/Wiz-IO/platform-sam-lora/wiki/VERSION) )
