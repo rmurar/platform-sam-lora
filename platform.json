@@ -33,10 +33,6 @@
     "framework-sam-lora": {
       "type": "framework",
       "version": "https://github.com/rmurar/framework-sam-lora.git@1.0.2"    
-    },
-      "tool-sam-lora": {
-        "type": "uploader",
-        "version": "https://github.com/Wiz-IO/LIB/raw/master/sam-lora/tool-sam-lora.zip"
-      }     
+    }   
   }
 }
